@@ -18,5 +18,5 @@ func updateLayout() {
         print("Comment modal not found."
         return
     }
-    commentModal.layoutIfNeeded()
+    commentModal.view.layoutIfNeeded()
 }
