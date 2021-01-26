@@ -13,7 +13,7 @@ var someVar = "foo-bar"
 ///
 /// For example, the below function was introduced in iOS 9.1, but has been deprecated in iOS 11.2 because a better function was
 /// created for it.
-@available(iOS, introduced: 9.1, deprecated: 11.2, message: "someBetterFunc() was created to leverage new features of iOS 11")
+@available(iOS, deprecated, introduced: 9.1, message: "someBetterFunc() was created to leverage new features of iOS 11")
 func someFunc() {
     
 }
